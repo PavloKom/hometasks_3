@@ -1,5 +1,5 @@
 first_number = float(input("Enter first number: "))
-operation = input("Enter operation: +, -, *, /: ")
+operation = input("Enter operation: +, -, *, / : ")
 second_number = float(input("Enter second number: "))
 
 if operation == "+":
@@ -13,4 +13,5 @@ elif operation == "/":
         print("Result:", first_number / second_number)
     else:
         print("Error: division by zero")
+
 
